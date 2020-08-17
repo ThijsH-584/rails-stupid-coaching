@@ -1,0 +1,25 @@
+/*// Place all the styles related to the questions controller here.*/
+/*// They will automatically be included in application.css.*/
+/*// You can use Sass (SCSS) here: http://sass-lang.com/*/
+
+/*$grey_border =;*/
+
+.coach-answer {
+  background-color: wheat;
+  border-left: 6px solid grey;
+  padding-left: 10px;
+}
+
+.user-question {
+  border-left: 6px solid grey;
+  padding-left: 10px;
+}
+
+.ask-link {
+  color: lightblue;
+  &:hover {
+    color: red;
+  }
+}
+
+

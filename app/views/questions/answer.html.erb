@@ -1,0 +1,16 @@
+<h1>Stupid Coaching</h1>
+
+
+<h3 class = "user-question">
+	<%= params[:question] %>
+	<br>
+	-You
+</h3>
+
+<h3 class = "coach-answer">
+	<%= @answer %>
+	<br>
+	-Your Coach
+</h3>
+
+<%= link_to "New Question", ask_path, class: "ask-link" %>
